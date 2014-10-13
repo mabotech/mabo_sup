@@ -2,6 +2,10 @@
 
 """
 app supervisor - heartbeat checker
+
+heartbeat set
+heartbeat check
+
 """
 
 import time
@@ -103,6 +107,10 @@ def func1():
     finally:
         #cancel timeout
         timeout.cancel()
+
+def hb_check():
+    """ check heartbeat """
+    pass
 
 def main():
 
